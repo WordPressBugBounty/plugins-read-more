@@ -1,0 +1,285 @@
+.ycf-bootstrap-wrapper  a:hover,
+.ycf-bootstrap-wrapper  a:active,
+.ycf-bootstrap-wrapper  a:focus {
+	text-decoration: none !important;
+}
+
+.yrm-delete-link {
+	margin-left: 5px;
+}
+
+.expm-wrapper {
+	margin-right: 18px;
+}
+
+.expm-table {
+	margin-top: 15px;
+	background-color: white !important;
+}
+
+.expm-wrapper  .control-label {
+	margin-top: 7px !important;
+}
+
+.expm-row-bottom {
+	margin-bottom: 10px;
+}
+
+.expm-left-side {
+	width: 49%;
+	float: left;
+	margin-right: 10px;
+}
+
+.expm-right-side {
+	width: 49%;
+	float: right;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.button-wrapper {
+	float: right;
+	margin-right: 20px;
+	padding-top: 20px;
+}
+
+.expm-update-to-pro {
+	background-color: #D54E21 !important;
+    border: 1px solid #D54E21 !important;
+    color: white !important;
+    cursor: pointer;
+    height: 29px;
+}
+
+.expander-page-title {
+	display: inline-block;
+	float: left;
+}
+
+p.submit {
+	margin: 0;
+	padding: 0;
+}
+
+.live-hedline {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.options-wrapper {
+	width: 48.5%;
+	float: left;
+	margin-right: 1.5%;
+	padding-top: 15px;
+}
+
+.right-side {
+	width: 50%;
+	float: right;
+	padding-top: 15px;
+}
+
+.preview-wrapper {
+	width: 50%;
+	float: right;
+}
+
+.postbox-container {
+	width: 100%;
+}
+
+.expander-options-content,
+.preview-wrapper {
+	margin: 10px;
+}
+
+.expm-option-label {
+	margin-bottom: 5px;
+	margin-top: 4px;
+}
+
+#expander-pro-option {
+	background-color: #ccc;
+	opacity: 0.6;
+	cursor: pointer;
+	border:1px solid #ccc;
+}
+
+.clear {
+	clear: both;
+}
+
+.preview-wrapper {
+	display: inline-block;
+	width: 49%;
+	border: 1px solid #cccccc;
+	float: right;
+	margin-right: 20px;
+	padding: 10px;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 12px;
+}
+
+#wpbody-content .metabox-holder {
+    padding-top: 0px;
+}
+
+/*Button style*/
+
+.expm-content,
+.yrm-hide-content {
+	display: none;
+}
+
+.expm-toggle-expand {
+	border: 1px solid #CCC;
+	width: 120px;
+	padding: 5px;
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.expand-btn-wrappper {
+	text-align: center;
+	padding-top: 5px;
+	position: relative;
+}
+
+.expm-button-text {
+	position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+
+#expm-shortcode-info-div {
+	display: inline-block;
+	background-color: #ccc;
+	width: 561px;
+	margin-left: 15px; 
+}
+
+.expm-option-info {
+	padding-top: 4px;
+}
+
+a.wp-color-result {
+	height: 24px !important;
+}
+
+.row-static-margin-bottom {
+	margin-bottom: 10px !important;
+}
+
+.product-banner {
+	display: inline-block;
+	height: 200px;
+	width: 345px;
+	margin-right: 10px;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+}
+
+.product-banner:hover {
+	transition: all .5s;
+	opacity: 0.4;
+	background: white;
+	color: #464646;
+}
+
+.yrm-button {
+	background-image: url("../img/buttonType.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.yrm-pro-options-wrapper {
+	position: relative;
+}
+
+.main-view-upgrade {
+	text-align: right;
+}
+
+.yrm-pro-options {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(238,238,238,0.4);
+	cursor: pointer;
+}
+
+/*Checkbox slider start*/
+/* The switch - the box around the slider */
+.yrm-switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.yrm-switch input {display:none;}
+
+/* The slider */
+.yrm-slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+	transform: scale(0.8, 0.8);
+}
+
+.yrm-slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked + .yrm-slider {
+	background-color: #2d459d;
+}
+
+input:focus + .yrm-slider {
+	box-shadow: 0 0 1px #2d459d;
+}
+
+input:checked + .yrm-slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.yrm-slider.yrm-round {
+	border-radius: 34px;
+}
+
+.yrm-slider.yrm-round:before {
+	border-radius: 50%;
+}
+/*Checkbox slider end*/
